@@ -3,7 +3,7 @@ import styles from "./LayOut.module.css"
 
 const LayOut = (props) => {
   return (
-    <div className={styles.test}>
+    <div className={styles.bg}>
       {props.children}
     </div>
   )

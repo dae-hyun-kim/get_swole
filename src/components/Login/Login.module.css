@@ -1,0 +1,57 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 40px;
+  margin: 20px 0 0 0;
+  letter-spacing: 3px;
+}
+
+.main h2 {
+  font-family: "Crimson Text", serif;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.test {
+  height: 400px;
+  width: 750px;
+  background-color: grey;
+  border: 2px solid black;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+}
+
+.planStep {
+  text-align: center;
+}
+
+.planBox {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.arrowContainer {
+  display: flex;
+  align-items: center;
+}
+
+.startedContainer {
+  margin-top: 40px;
+  text-align: center;
+}

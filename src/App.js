@@ -1,10 +1,13 @@
 import React from 'react';
 import StartScreen from "./routes/StartScreen";
+import LayOut from "./components/LayOut/LayOut"
 
 function App() {
   return (
     <div className="App bg">
-      <StartScreen/>
+      <LayOut>
+        <StartScreen/>
+      </LayOut>
     </div>
   );
 }

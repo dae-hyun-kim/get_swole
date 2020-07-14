@@ -1,11 +1,9 @@
 import React from "react"
-import LayOut from "../components/LayOut/LayOut"
+import Login from "../components/Login/Login"
 
 const StartScreen = () => {
   return (
-    <LayOut>
-
-    </LayOut>
+      <Login/>
   )
 }
 
