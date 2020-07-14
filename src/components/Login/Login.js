@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "./Login.module.css"
+import styles from "./Login.module.css";
+import { Link } from "react-router-dom"
 
 const Login = () => {
   return (
@@ -36,7 +37,7 @@ const Login = () => {
           </div>
         </div>
         <div className={styles.startedContainer}>
-          <button>Get Started</button>
+          <Link to={"/home"}><button>Get Started</button></Link>
         </div>
       </div>
     </div>
