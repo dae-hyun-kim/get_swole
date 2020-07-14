@@ -1,0 +1,7 @@
+.bg {
+  background-image: url("../../assets/imgs/gym-bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  opacity: 0.85;
+}
