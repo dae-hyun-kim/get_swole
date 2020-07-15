@@ -1,10 +1,13 @@
-import React from "react"
+import React from "react";
+import DateComponent from "../components/Date/DateComponent"
 
 const Home = () => {
   return (
-    <>
-      <h1>hello</h1>
-    </>
+    <div>
+      <div>
+        <DateComponent />
+      </div>
+    </div>
   )
 }
 
