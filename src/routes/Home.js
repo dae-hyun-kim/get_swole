@@ -8,7 +8,7 @@ const Home = () => {
       <div>
         <DateComponent />
       </div>
-      <div>
+      <div className="home-space-around">
         <TodaysWorkout/>
       </div>
     </div>
