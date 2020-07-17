@@ -1,0 +1,27 @@
+h1, h2, h3, h4 {
+  margin: 0;
+  text-align: center;
+}
+
+.thickFont {
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 1px;
+}
+
+.thinFont {
+  font-family: "Crimson Text", serif;
+}
+
+.container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.dateContainer {
+  display: inline-block;
+  background-color: grey;
+  opacity: 0.75;
+  padding: 15px;
+}

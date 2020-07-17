@@ -1,0 +1,13 @@
+.container {
+  width: 500px;
+  height: 600px;
+  background-color: grey;
+}
+
+.header {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 30px;
+  letter-spacing: 3px;
+  padding: 15px;
+  background-color: burlywood;
+}
