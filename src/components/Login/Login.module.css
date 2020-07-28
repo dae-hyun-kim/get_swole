@@ -2,56 +2,80 @@
 	box-sizing: border-box;
 }
 
-h1 {
-	font-weight: bold;
+.headTitles {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Black Ops One', cursive;
 	margin: 0;
 }
 
-h2 {
-	text-align: center;
-}
-
-p {
-	font-size: 14px;
-	font-weight: 100;
-	line-height: 20px;
+.print {
+  font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
 	letter-spacing: 0.5px;
 	margin: 20px 0 30px;
 }
 
-span {
-	font-size: 12px;
+.printSmall {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 13px;
 }
 
-a {
-	color: #333;
-	font-size: 14px;
-	text-decoration: none;
-	margin: 15px 0;
-}
-
-button {
-	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+.introButton {
+  border-radius: 20px;
+  font-family: 'Black Ops One', cursive;
+	border: 1px solid #5E6572;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25),
+			0 5px 5px rgba(0,0,0,0.22);
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
-	padding: 12px 45px;
+	padding: 10px 30px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	transition: transform 80ms ease-in;
+  transition: transform 80ms ease-in;
+
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  background-color: #5E6572;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
 }
 
-button:active {
+.fourth {
+  border-color: #5E6572;
+  background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #13315C 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 400ms ease-in-out;
+  transition: background 400ms ease-in-out;
+}
+.fourth:hover {
+  background-position: 0;
+}
+
+.introButton:hover {
+  cursor: pointer;
+}
+
+.introButton:active {
 	transform: scale(0.95);
 }
 
-button:focus {
+.introButton:focus {
 	outline: none;
 }
 
-button.ghost {
+.introButton.ghost {
 	background-color: transparent;
 	border-color: #FFFFFF;
 }
@@ -146,7 +170,7 @@ input {
 }
 
 .overlay {
-  background: url(../../assets/imgs/test.png);
+  background: url(../../assets/imgs/gym-bg.jpg);
 	background-size: cover;
 	background-position: 0 0;
 	color: #FFFFFF;
