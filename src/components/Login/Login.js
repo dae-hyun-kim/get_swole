@@ -22,10 +22,10 @@ const Login = () => {
         <form action="#">
           <h1 className={styles.headTitles}>Create Account</h1>
           <div className={styles.socialContainer}>
-            <i className={styles.social}><i className="fab fa-facebook-square fa-2x"></i></i>
-            <i className={styles.social}><i className="fab fa-twitter-square fa-2x"></i></i>
-            <i href="#" className={styles.social}><i className="fab fa-linkedin fa-2x"></i></i>
-            <i className={styles.social}><i className="fab fa-google-plus-square fa-2x"></i></i>
+            <i className={styles.social}><i className={`${styles.facebook} fab fa-facebook-square fa-2x`}></i></i>
+            <i className={styles.social}><i className={`${styles.twitter} fab fa-twitter-square fa-2x`}></i></i>
+            <i href="#" className={styles.social}><i className={`${styles.linkedIn} fab fa-linkedin fa-2x`}></i></i>
+            <i className={styles.social}><i className={`${styles.google} fab fa-google-plus-square fa-2x`}></i></i>
           </div>
           <span className={styles.printSmall}>or use your email for registration</span>
           <input type="text" placeholder="Name"/>
@@ -38,10 +38,10 @@ const Login = () => {
         <form action="#">
           <h1 className={styles.headTitles}>Sign In</h1>
           <div className={styles.socialContainer}>
-            <i className={styles.social}><i className="fab fa-facebook-square fa-2x"></i></i>
-            <i className={styles.social}><i className="fab fa-twitter-square fa-2x"></i></i>
-            <i className={styles.social}><i className="fab fa-linkedin fa-2x"></i></i>
-            <i className={styles.social}><i className="fab fa-google-plus-square fa-2x"></i></i>
+            <i className={styles.social}><i className={`${styles.facebook} fab fa-facebook-square fa-2x`}></i></i>
+            <i className={styles.social}><i className={`${styles.twitter} fab fa-twitter-square fa-2x`}></i></i>
+            <i className={styles.social}><i className={`${styles.linkedIn} fab fa-linkedin fa-2x`}></i></i>
+            <i className={styles.social}><i className={`${styles.google} fab fa-google-plus-square fa-2x`}></i></i>
           </div>
           <span className={styles.printSmall}>or use your account</span>
           <input type="email" placeholder="Email"/>

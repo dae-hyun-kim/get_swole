@@ -231,3 +231,19 @@ input {
 	height: 40px;
 	width: 40px;
 }
+
+.facebook {
+	color: #3B5998;
+}
+
+.twitter {
+	color: #1DA1F2;
+}
+
+.linkedIn {
+	color: #2867B2;
+}
+
+.google {
+	color: #DB4A39;
+}
