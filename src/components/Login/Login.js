@@ -55,12 +55,12 @@ const Login = () => {
           <div className={`${styles.overlayPanel} ${styles.overlayLeft}`}>
             <h1 className={styles.headTitles}>Already a Member?</h1>
             <p className={styles.print}>Click below to login with your information.</p>
-            <button className={`${styles.ghost} ${styles.introButton}`} onClick={panelInactive} >Sign In</button>
+            <button className={`${styles.ghost} ${styles.introButton} ${styles.fourth}`} onClick={panelInactive} >Sign In</button>
           </div>
         <div className={`${styles.overlayPanel} ${styles.overlayRight}`}>
             <h1 className={styles.headTitles}>Ready to Lift?</h1>
             <p className={styles.print}>Click below and sign up to be a member.</p>
-          <button onClick={panelActive} className={`${styles.ghost} ${styles.introButton}`}>Sign Up</button>
+            <button onClick={panelActive} className={`${styles.ghost} ${styles.introButton} ${styles.fourth}`}>Sign Up</button>
         </div>
         </div>
       </div>
