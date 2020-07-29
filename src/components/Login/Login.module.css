@@ -118,7 +118,7 @@ input {
 	overflow: hidden;
 	width: 768px;
 	max-width: 100%;
-	min-height: 480px;
+	min-height: 550px;
 }
 
 .formContainer {
@@ -256,4 +256,8 @@ input {
 
 .google {
 	color: #DB4A39;
+}
+
+.logo {
+	height: 135px;
 }

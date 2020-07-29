@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import styles from "./Login.module.css";
+import logo from "../../assets/imgs/logo.png"
 import { Link } from "react-router-dom"
 
 const Login = () => {
@@ -37,6 +38,9 @@ const Login = () => {
         </div>
         <div className={`${styles.formContainer} ${styles.signInContainer}`}>
           <form action="#">
+            <div>
+              <img src={logo} alt="logo" className={styles.logo}/>
+            </div>
             <h1 className={styles.headTitles}>Sign In</h1>
             <div className={styles.socialContainer}>
               <i className={styles.social}><i className={`${styles.facebook} fab fa-facebook-square fa-2x`}></i></i>
