@@ -52,7 +52,9 @@ const Login = () => {
             <input type="email" placeholder="Email"/>
             <input type="password" placeholder="Password" />
             <p className={styles.printSmall}>Forgot your password?</p>
-            <button className={`${styles.introButton} ${styles.fourth}`}>Sign In</button>
+            <Link to="/Home">
+              <button className={`${styles.introButton} ${styles.fourth}`}>Sign In</button>
+            </Link>
           </form>
         </div>
         <div className={styles.overlayContainer}>
